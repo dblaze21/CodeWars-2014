@@ -1,0 +1,10 @@
+f=input()
+k=1
+while(k<=f):
+ num=raw_input()	
+ s=num.split(",")
+ s.sort()
+ t=len(s)-2
+ print(s[t]),
+ print(s[1])
+ k=k+1
